@@ -11,5 +11,10 @@ public class user {
 	public void setName(String name) {
 		this.name = name;
 	}
-		
+
+	@Override
+	public String toString() {
+		return "user [name=" + name + "]";
+	}
+			
 }
